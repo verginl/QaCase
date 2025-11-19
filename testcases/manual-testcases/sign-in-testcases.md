@@ -13,6 +13,7 @@ Prioritas: High
 -------------------------------------------------------------------------------------------------------------------
 
 **TC-SI-02 – Username tidak terdaftar (Negative)**
+
 Step:
 1. Input username tidak valid
 
@@ -24,6 +25,7 @@ Prioritas: High
 -------------------------------------------------------------------------------------------------------------------
 
 **TC-SI-03 – Koneksi internet mati (Negative)**
+
 Step:
 1. Turn off internet
 2. Input username
@@ -35,6 +37,7 @@ Prioritas: High
 -------------------------------------------------------------------------------------------------------------------
 
 **TC-SI-05 – Password benar (Positive)**
+
 Step:
 1. Input username yang valid
 2. Input password yang valid
@@ -47,6 +50,7 @@ Prioritas: High
 -------------------------------------------------------------------------------------------------------------------
 
 **TC-SI-06 – Password salah (Negative)
+
 Step:**
 1. Input username yang valid
 2. Input password yang tidak valid
@@ -59,6 +63,7 @@ Prioritas: High
 -------------------------------------------------------------------------------------------------------------------
 
 **TC-SI-07 – Password kosong (Negative)**
+
 Step:
 1. Input username yang valid
 3. Klik button Sign In
@@ -70,6 +75,7 @@ Prioritas: Medium
 -------------------------------------------------------------------------------------------------------------------
 
 **TC-SI-08 – Login gagal 5 kali (Negative)**
+
 Step:
 
 1. Input username yang valid
