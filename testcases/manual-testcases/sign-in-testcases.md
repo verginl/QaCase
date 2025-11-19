@@ -6,7 +6,8 @@ Step:
 1. Input username yang terdaftar, lalu lanjutkan.
 
 Expected Result:
-Sistem menemukan tenant, kemudian layar login Microsoft muncul
+- Backend mengembalikan tenant info
+- Aplikasi membuka layar login Microsoft
 
 Prioritas: High
 
@@ -27,23 +28,31 @@ Prioritas: High
 **TC-SI-03 – Koneksi internet mati (Negative)**
 
 Step:
-1. Turn off internet
+1. Turn off koneksi internet
 2. Input username
 
-Expected Result:Sistem menampilkan error koneksi dan tidak melanjutkan.
+Expected Result:
+- Request gagal
+- Aplikasi menampilkan error message tidak ada koneksi internet
+- Tidak melanjutkan ke Microsoft login
 
 Prioritas: High
 
 -------------------------------------------------------------------------------------------------------------------
 
-**TC-SI-05 – Password benar (Positive)**
+**TC-SI-05 – Login Berhasil (Positive)**
 
 Step:
 1. Input username yang valid
 2. Input password yang valid
 3. Klik button Sign In
 
-Expected Result: User berhasil login dan diarahkan ke dashboard utama sesuai role.
+Expected Result:
+- User berhasil login melalui Microsoft
+- Aplikasi get data profil via endpoint /user/me
+- Aplikasi get master data via endpoint /tenant/master
+- Aplikasi download / get master data (locations, areas, employees, forms, dll.) sesuai list yang diberikan
+- Progress bar berjalan selama proses download master data
 
 Prioritas: High
 
@@ -56,7 +65,9 @@ Step:**
 2. Input password yang tidak valid
 3. Klik button Sign In
 
-Expected Result: Sistem menampilkan error message “Incorrect password” dan login gagal
+Expected Result: 
+- Muncul error dari Microsoft
+- User tetap di halaman login Microsoft
 
 Prioritas: High
 
