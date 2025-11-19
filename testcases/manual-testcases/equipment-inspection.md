@@ -114,3 +114,52 @@ Expected:
 - Form gagal tersimpan
 
 Prioritas: Medium
+
+------------------------------------------------------------------------------------------------
+
+1. Open Equipment Inspection Page
+**TC-EI-01 – Halaman list inspection terbuka (Positive)**
+Step :
+1. Klik menu Equipment Inspection
+
+Expected:
+- Berhasil masuk ke halaman Equipment Inspection
+- Riwayat submission tampil
+- Menampilkan button “New Inspection”
+
+------------------------------------------------------------------------------------------------
+
+2. Select Form Code
+**TC-EI-02 – Form Code muncul (Positive)**
+
+Expected:
+- List Form Code dari backend berhasil tampil
+- User bisa memilih salah satu form
+
+------------------------------------------------------------------------------------------------
+
+3. Dynamic Form Load
+**TC-EI-03 – Field dinamis berhasil dimuat (Positive)**
+
+Step:
+1. Pilih Form Code
+2. Aplikasi memuat field berdasarkan konfigurasi form builder
+
+Expected:
+Field tampil sesuai definisi:
+- Text field
+- Date Picker
+- Select/dropdown field
+- Radio button
+- Image Picker
+- Urutan field sesuai form builder
+- Mandatory flag bekerja
+
+------------------------------------------------------------------------------------------------
+
+**TC-EI-04 – Field gagal dimuat (Negative)**
+Expected:
+- Menampilkan error message
+- User tetap di halaman form
+
+------------------------------------------------------------------------------------------------
