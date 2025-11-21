@@ -17,7 +17,8 @@ Prioritas: High
 ------------------------------------------------------------------------------------------------
 
 2. Create New Form
-TC-FB-02 – Membuat form baru (Positive)
+
+**TC-FB-02 – Membuat form baru (Positive)**
 
 Step:
 1. Klik Create Form
@@ -34,6 +35,7 @@ Prioritas: High
 ------------------------------------------------------------------------------------------------
 
 3. Add Field Types
+
 **TC-FB-03 – Tambahkan Input Text (Positive)**
 
 Expected:
@@ -88,6 +90,7 @@ Prioritas: High
 ------------------------------------------------------------------------------------------------
 
 5. Save Form
+
 **TC-FB-09 – Form berhasil disimpan (Positive)**
 
 Step:
@@ -118,6 +121,7 @@ Prioritas: Medium
 ------------------------------------------------------------------------------------------------
 
 1. Open Equipment Inspection Page
+
 **TC-EI-01 – Halaman list inspection terbuka (Positive)**
 Step :
 1. Klik menu Equipment Inspection
@@ -130,6 +134,7 @@ Expected:
 ------------------------------------------------------------------------------------------------
 
 2. Select Form Code
+
 **TC-EI-02 – Form Code muncul (Positive)**
 
 Expected:
@@ -139,6 +144,7 @@ Expected:
 ------------------------------------------------------------------------------------------------
 
 3. Dynamic Form Load
+
 **TC-EI-03 – Field dinamis berhasil dimuat (Positive)**
 
 Step:
