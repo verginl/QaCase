@@ -76,6 +76,7 @@ Expected:
 ------------------------------------------------------------------------------------------------
 
 4. Validate Maximum Field Count
+
 **TC-FB-08 – Lebih dari 50 field (Negative)**
 
 Step: 
@@ -123,6 +124,7 @@ Prioritas: Medium
 1. Open Equipment Inspection Page
 
 **TC-EI-01 – Halaman list inspection terbuka (Positive)**
+
 Step :
 1. Klik menu Equipment Inspection
 
