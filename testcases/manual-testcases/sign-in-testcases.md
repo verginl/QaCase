@@ -40,7 +40,7 @@ Prioritas: High
 
 -------------------------------------------------------------------------------------------------------------------
 
-**TC-SI-05 – Login Berhasil (Positive)**
+**TC-SI-05 – Login Successfully (Positive)**
 
 Step:
 1. Input username yang valid
@@ -58,7 +58,7 @@ Prioritas: High
 
 -------------------------------------------------------------------------------------------------------------------
 
-**TC-SI-06 – Password salah (Negative)
+**TC-SI-06 – Password tidak valid (Negative)
 
 Step:**
 1. Input username yang valid
