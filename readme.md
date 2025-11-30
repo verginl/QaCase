@@ -9,7 +9,7 @@ Tujuan utama repository ini adalah menunjukkan:
 
 ## Todos
 
-1. Read [case](./case-taskproject.md) & [case](./case-testcase.md)
+1. Read [case-taskproject](./case-taskproject.md) & [case-testcase](./case-testcase.md)
 
 
 **Author**
