@@ -53,7 +53,9 @@ Manual testing:<br>
 
 Automation testing:<br> 
 - Katalon Studio
-Repository: 
+- BDD Cucumber
+
+Repository: <br>
 - GitHub / Gitlab
 
 
