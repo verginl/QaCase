@@ -1,15 +1,18 @@
 # Introduction
 
-this repository will have a case that you need to analyze and solve
+Repository ini disusun sebagai bagian dari technical assessment untuk posisi QA Engineer, berisi dokumentasi test case manual dan daftar test case yang diusulkan untuk automation.
 
-## Before you start
-
-1. Fork the repository
+Tujuan utama repository ini adalah menunjukkan:
+- Cara kerja saya dalam menyusun test scenario & test case
+- Struktur dokumentasi yang rapi dan mudah dibaca
+- Prioritas dan pemilihan test case automation
 
 ## Todos
 
-1. Read [case](./case.md)
-2. Pour your test cases into two categories, manual and automations
-3. Structure the repository to your preferable structure, on how you work, whatever tools you want
-4. Fill in how to read your results in a [case.md](./testcases/readme.md)
-5. Submit back your Fork Url
+1. Read [case](./case-taskproject.md) & [case](./case-testcase.md)
+
+
+**Author**
+
+Vergi Nardian Lufyandi<br>
+QA Engineer (Manual & Automation)
